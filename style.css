@@ -1,0 +1,71 @@
+.hero_area .hero_bg_box img {
+    min-width: 100%;
+    min-height: 100%;
+  
+  }
+  
+  .sub_page .hero_area {
+    min-height: auto;
+    background: linear-gradient(130deg, #231a6f, #0f054c);
+   
+
+  }
+  .hero_area{
+
+    margin-left: 100px;
+    overflow: hidden;
+
+  }
+
+.name{
+    position: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #07060f;
+   text-align: center;
+}
+
+  
+  .text-overlay {
+    position: absolute;
+    top: 10%;
+    left:160px;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(20% - 20px); /* Adjust width and margin as needed */
+    margin-bottom: 20px;
+    background-color: #050436;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #e9dddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
